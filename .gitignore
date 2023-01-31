@@ -1,0 +1,6 @@
+# IDEs
+.idea/
+
+# Build directories
+build/
+cmake-build-*/

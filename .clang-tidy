@@ -1,0 +1,21 @@
+---
+Checks: >
+  clang-diagnostic-*,
+  clang-analyzer-core-*,
+  clang-analyzer-cplusplus-*,
+  clang-analyzer-security-*,
+  clang-analyzer-unix-*,
+  cert-*,
+  concurrency-*,
+  cppcoreguidelines-*,
+  modernize-*,
+  -modernize-use-nodiscard,
+  performance-*
+WarningsAsErrors: ''
+HeaderFilterRegex: '^\<dsa\/*'
+AnalyzeTemporaryDtors: false
+FormatStyle: none
+CheckOptions:
+  - key: cppcoreguidelines-special-member-functions.AllowSoleDefaultDtor
+    value: 'true'
+...
