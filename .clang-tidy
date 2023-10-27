@@ -1,0 +1,9 @@
+---
+Checks: 'clang-diagnostic-*,clang-analyzer-*,cert-*,cppcoreguidelines-*,performance-*,portability-*'
+WarningsAsErrors: ''
+HeaderFilterRegex: ''
+AnalyzeTemporaryDtors: false
+FormatStyle: none
+User: Oleg E. Vorobiov
+CheckOptions: {}
+...
