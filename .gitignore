@@ -7,3 +7,6 @@ cmake-build-*/
 
 # System files
 .DS_Store
+
+# Generated docs
+docs/out/
