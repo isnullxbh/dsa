@@ -8,7 +8,9 @@ target_include_directories(dsa.tests
 
 target_sources(dsa.tests
     PRIVATE
-        main.cpp)
+        main.cpp
+        # Sorting
+        dsa/sorting/insertion_sort.test.cpp)
 
 target_link_libraries(dsa.tests
     PRIVATE
