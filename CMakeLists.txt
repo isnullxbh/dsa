@@ -11,3 +11,7 @@ add_subdirectory(src)
 if(DSA_BUILD_TESTS)
     add_subdirectory(tests)
 endif()
+
+add_custom_target(dsa.generate-docs
+    COMMAND doxygen docs/Doxyfile
+    WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
