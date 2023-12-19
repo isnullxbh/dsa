@@ -1,7 +1,5 @@
 # dsa
 
----
-
 ![example workflow](https://github.com/isnullxbh/dsa/actions/workflows/cmake-multi-platform.yml/badge.svg)
 
 A data structures and algorithms library
