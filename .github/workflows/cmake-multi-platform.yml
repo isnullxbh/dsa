@@ -4,7 +4,7 @@ name: CMake on multiple platforms
 
 on:
   push:
-    branches: [ "master", "DSA-8" ]
+    branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
 
