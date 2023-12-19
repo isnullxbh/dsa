@@ -6,7 +6,7 @@ on:
   push:
     branches: [ "master", "DSA-8" ]
   pull_request:
-    branches: [ "master", "DSA-8" ]
+    branches: [ "master" ]
 
 jobs:
   build:
